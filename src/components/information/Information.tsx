@@ -3,7 +3,7 @@ import NewsFeed from "../newsFeed/NewsFeed";
 import TopGl from "../topGl/TopGl";
 
 export default function Information() {
-  const [selectTab, setSelectedTab] = useState("topGl");
+  const [selectTab, setSelectedTab] = useState("news");
 
   return (
     <section className="flex-1 flex flex-col gap-2 p-4 overflow-hidden">
